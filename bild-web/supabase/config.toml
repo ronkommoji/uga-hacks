@@ -1,0 +1,4 @@
+# Edge Function config. bob-chat uses verify_jwt = false so the gateway accepts
+# ES256 JWTs (e.g. from React Native/Expo); auth is enforced inside the function via getUser().
+[functions.bob-chat]
+verify_jwt = false

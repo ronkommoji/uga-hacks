@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Env and secrets
+.env
+.env.local
+.env*.local
+
+# Build / cache
+.next/
+.expo/
+dist/
+*.tsbuildinfo
+
+# IDE / OS
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Supabase local (if used)
+supabase/.branches/
+supabase/.temp/
