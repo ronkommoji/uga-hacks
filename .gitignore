@@ -1,10 +1,23 @@
 # Dependencies
 node_modules/
 
-# Env and secrets
+# Env and secrets (never commit real values)
 .env
 .env.local
-.env*.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+*.env
+!*.env.example
+!*.env.example.*
+# Explicit per-app (in case of subdir runs)
+bild-mobile/.env
+bild-mobile/.env.local
+bild-web/.env
+bild-web/.env.local
+bild-web/.env.development.local
+bild-web/.env.production.local
 
 # Build / cache
 .next/
